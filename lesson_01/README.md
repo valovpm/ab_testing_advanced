@@ -1,7 +1,7 @@
 
 # Lesson 1: Python and Pandas fundamentals
 
-## Problem 4: PARLA
+## [Problem 4](problem_04.ipynb): PARLA
 
 ### Problem
 - The goal was to analyze the average time between a user's visit to the website and the corresponding purchase:
@@ -28,7 +28,7 @@
 
 
 
-## Problem 7: PARLA
+## [Problem 7](problem_07.ipynb): PARLA
 
 ### Problem
 - Write a function that filters dataframe, using provided parameters
@@ -47,7 +47,7 @@
 
 
 
-## Problem 8: PARLA
+## [Problem 8](problem_08.ipynb): PARLA
 
 ### Problem
 - Write a function that computes server response times within a given date range
