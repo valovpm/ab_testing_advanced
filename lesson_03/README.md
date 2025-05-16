@@ -18,17 +18,13 @@
   - As your answer, enter the required group size, rounded to the nearest ten (round(x, -1)).
   - Use formula:
 
-$$
-n > \frac{ [ {\Phi}^{-1}(1 - \alpha/2) + {\Phi}^{-1}(1 - \beta) ]^2 (\sigma^{2}_{X} + \sigma^{2}_{Y}) }{ \epsilon^2 }
-$$
+![formula](formula_min_sample_size.png)
 
 - For the same experiment:
   - Generate control and experimental groups
   - Estimate Minimal Detectable Effect (MDE), by using the generated groups and the following formula:
 
-$$
-\epsilon > \sqrt{ \frac{ [ {\Phi}^{-1}(1 - \alpha/2) + {\Phi}^{-1}(1 - \beta) ]^2 (\sigma^{2}_{X} + \sigma^{2}_{Y}) }{ n } }
-$$
+![formula](formula_min_detectable_effect.png)
 
 ### Action
 - To estimate the required group size for the experiment, I:
@@ -64,9 +60,7 @@ $$
   - For more info see function's docstring below
   - To calculate minimal sample size use formula:
 
-$$
-n > \frac{ [ {\Phi}^{-1}(1 - \alpha/2) + {\Phi}^{-1}(1 - \beta) ]^2 (\sigma^{2}_{X} + \sigma^{2}_{Y}) }{ \epsilon^2 }
-$$
+![formula](formula_min_sample_size.png)
 
 ## Action
 - To calculate the minimal sample size I:
