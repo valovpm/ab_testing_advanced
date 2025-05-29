@@ -100,7 +100,7 @@ def plot_pvalues_ecdf(pvalues, name='ECDF of p-values'):
     fig.show()
 
 
-def plot_compare_histograms(x, x_label, y, y_label, title):
+def plot_compare_histograms(x, x_label, y, y_label, title, height=500, width=500):
     # Create the histogram traces
     trace1 = go.Histogram(x=x, opacity=0.6, name=x_label, nbinsx=100)
     trace2 = go.Histogram(x=y, opacity=0.6, name=y_label, nbinsx=100)
@@ -112,8 +112,8 @@ def plot_compare_histograms(x, x_label, y, y_label, title):
     fig.update_layout(
         template='plotly_dark',
         title= title,
-        width=500,
-        height=500,
+        width=width,
+        height=height,
         barmode="overlay",  # Overlay the histograms instead of stacking
         xaxis_title="Value",
         yaxis_title="Count",
